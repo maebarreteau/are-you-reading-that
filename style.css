@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(#fce7f3, #ede9fe, #dbeafe);
+    background: linear-gradient(#fce7f3, #ede9fe, #dbeafe);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: #333
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7e22ce;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 0.5 rem 0.8rem;
+    border-radius: 1rem;
+    background: #f3f4f6;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #7e22ce;
+}
+
+.hero { 
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #6d28d9;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    background: #7e22ce;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+    text-decoration: none;
+}
+
+.cta:hover {
+    transform: scale(1.05);
+    background: #6d28d9;
+}
